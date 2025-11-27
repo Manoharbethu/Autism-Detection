@@ -1,17 +1,16 @@
-# Autism-Detection
-
-Introduction Autism Spectrum Disorder (ASD) is a developmental condition 
-characterized by challenges in social interaction, communication, and repetitive 
-behaviors. Early and accurate detection of ASD is crucial for providing timely 
-interventions that can significantly improve the quality of life for individuals 
-affected by this condition. Traditional diagnostic methods, which often involve 
-lengthy clinical assessments and observations, can be both time-consuming and 
-costly. To address these challenges, researchers are increasingly turning to 
-machine learning techniques to enhance the detection and diagnosis of ASD. 
-Machine learning algorithms can analyze vast amounts of data to identify patterns 
-and indicators of autism that might be overlooked by human evaluators. These 
-algorithms utilize various data sources, including behavioral assessments, genetic 
-information, and even facial recognition technology, to detect subtle signs of 
-ASD. By leveraging the power of machine learning, it is possible to develop more 
-efficient, accurate, and accessible diagnostic tools, ultimately leading to earlier 
-diagnosis and better outcomes for individuals with autism
+# 🧠 Autism-Detection
+Developing Accurate Diagnostic Tools via Classification Models <br/>
+This repository documents the development of a machine learning model designed for the early and accurate detection of Autism Spectrum Disorder (ASD) in children. By analyzing a combination of behavioral, cognitive, and demographic data, this project aims to create a highly efficient and accessible diagnostic tool.
+# 🎯 Key Project Objectives <br/>
+Improve Early Identification: To enhance the accuracy and efficiency of ASD detection to enable timely intervention and support. <br/>
+Leverage Advanced Analytics: To utilize machine learning to identify subtle indicators of autism that might be missed by conventional clinical assessments. <br/>
+Process Diverse Data: To analyze various data inputs, including behavioral patterns and features from a collected dataset. <br/>
+# 🛠️ Project Structure and Technologies <br/>
+The core of the project involves extensive data preprocessing, including dropping missing values and utilizing techniques like MinMaxScaler and One-Hot Encoding. <br/>
+Dependencies <br/>
+The analysis relies heavily on the Scikit-learn ecosystem and Python's data stack: <br/>
+Data Manipulation: pandas and numpy. <br/>
+Visualization: matplotlib.pyplot and seaborn. <br/>
+Machine Learning (Scikit-learn): RandomForestClassifier, LogisticRegression, DecisionTreeClassifier, KNeighborsClassifier. <br/>
+Model Selection: GridSearchCV and train_test_split. <br/>
+Preprocessing: MinMaxScaler and StandardScaler (as explored in the report).
